@@ -1,0 +1,66 @@
+/* SHIFT + ALT + F to clean up code */
+
+
+/************************TAG SELECTORS****************************/
+
+body {
+    background-color: #F0F0F0;
+    color: #0f0f0f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #e31414;
+    margin-top: 0px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #c0c0c0;
+    border-width: 5px;
+    width: 10%;
+}
+
+img:hover{
+opacity: 50%;
+}
+
+
+/************************CLASS SELECTORS: you can have mulitple classes****************************/
+.profilePicture{
+    border-radius: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.card{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+
+
+
+
+/************************ID SELECTORS: unique, you can only have one****************************/
+#heading{
+    color:#e31414;
+}
+
