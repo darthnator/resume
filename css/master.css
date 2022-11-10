@@ -8,6 +8,7 @@ body {
     color: #0f0f0f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 h1,
@@ -19,13 +20,17 @@ h6 {
     color: #e31414;
     margin-top: 0px;
 }
+h2{
+    text-align: center;
+}
 
 hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #c0c0c0;
     border-width: 5px;
-    width: 10%;
+    width: 25%;
+    margin-bottom: 25px;
 }
 
 img:hover{
@@ -38,25 +43,30 @@ opacity: 50%;
     border-radius: 100%;
     max-width: 300px;
     max-height: 300px;
+
 }
 
 .card{
     background-color: #ffffff;
-    margin: 20px;
+    margin: 25px auto;
     padding: 20px;
     box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-  100px 100px 80px rgba(0, 0, 0, 0.07)
-;
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    width: 50%;
+    text-align: left;
 
-border-radius: 8px;
-    
 }
 
+.icon{
+    /* height: 25px; */
+    margin-right: 5px;
+}
 
 
 
@@ -64,5 +74,8 @@ border-radius: 8px;
 /************************ID SELECTORS: unique, you can only have one****************************/
 #heading{
     color:#e31414;
+    
 }
+
+
 
